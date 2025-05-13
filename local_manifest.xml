@@ -4,6 +4,7 @@
     <!-- Remotes -->
     <remote name="daingl" fetch="https://gitlab.com/dain09" clone-depth="1" />
     <remote name="dain" fetch="https://github.com/dain09" clone-depth="1" />
+    <remote name="kdrag0n" fetch="https://github.com/kdrag0n" clone-depth="1" />
 
     <!-- Repos -->
     
@@ -17,5 +18,7 @@
 
     <!-- Vendor -->
     <project path="vendor/realme/RMX1971" name="vendor_realme_RMX197" remote="daingl" revision="15" />
+
+    <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" />
 
 </manifest>
