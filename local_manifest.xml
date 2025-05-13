@@ -5,7 +5,7 @@
     <remote name="daingl" fetch="https://gitlab.com/dain09" clone-depth="1" />
     <remote name="dain" fetch="https://github.com/dain09" clone-depth="1" />
     <remote name="kdrag0n" fetch="https://github.com/kdrag0n" clone-depth="1" />
-
+    <remote name="matrixx" fetch="https://github.com/ProjectMatrixx"
     <!-- Repos -->
     
     <!-- Device -->
@@ -21,4 +21,7 @@
 
     <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" />
 
+    <!-- Private keys -->
+    <project path="android_vendor_lineage-priv_keys-template" name="vendor_sign" remote="matrixx" revision="master" />
+    
 </manifest>
