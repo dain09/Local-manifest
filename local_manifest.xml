@@ -5,7 +5,7 @@
     <remote name="key" fetch="https://github.com/ProjectMatrixx/android_vendor_lineage-priv_keys-template" />
     
     <project path="device/realme/RMX1971" name="device_realme_RMX1971" remote="dain" revision="14-matrixx" />
-    <project path="vendor/realme/RMX1971" name="vendor_realme_RMX1971" remote="dain" revision="14" />
+    <project path="vendor/realme/RMX1971" name="vendor_realme_RMX1971" remote="dain" revision="15" />
     <project path="kernel/realme/sdm710" name="android_kernel_realme_sdm710" remote="dain" revision="14-r5p" />
 
     <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" />
