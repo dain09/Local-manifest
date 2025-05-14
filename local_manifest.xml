@@ -2,7 +2,6 @@
 <manifest>
     
     <!-- Remotes -->
-    <remote name="daingl" fetch="https://gitlab.com/dain09" clone-depth="1" />
     <remote name="dain" fetch="https://github.com/dain09" clone-depth="1" />
     <remote name="kdrag0n" fetch="https://github.com/kdrag0n" clone-depth="1" />
     <remote name="matrixxx" fetch="https://github.com/ProjectMatrixx" />
@@ -18,7 +17,7 @@
     <project path="kernel/realme/sdm710" name="android_kernel_realme_sdm710" remote="dain" revision="14-r5p" />
 
     <!-- Vendor -->
-    <project path="vendor/realme/RMX1971" name="vendor_realme_RMX1971" remote="daingl" revision="15" />
+    <project path="vendor/realme/RMX1971" name="vendor_realme_RMX1971" remote="dain" revision="15" />
 
     <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" />
 
