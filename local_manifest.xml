@@ -4,7 +4,7 @@
     <!-- Remotes -->
     <remote name="dain" fetch="https://github.com/dain09" clone-depth="1" />
     <remote name="kdrag0n" fetch="https://github.com/kdrag0n" clone-depth="1" />
-    <remote name="infinity" fetch="https://github.com/ProjectInfinity-X" />
+    <remote name="infinityx" fetch="https://github.com/ProjectInfinity-X" />
         
     <!-- Repos -->
     
@@ -22,6 +22,6 @@
     <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" />
 
     <!-- Private keys -->
-    <project path="vendor/infinity-priv/keys" name="vendor_infinity-priv_keys-template" remote="infinity" revision="QPR3" />
+    <project path="vendor/infinity-priv/keys" name="vendor_infinity-priv_keys-template" remote="infinityx" revision="QPR3" />
     
 </manifest>
