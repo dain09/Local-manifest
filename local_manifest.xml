@@ -5,8 +5,6 @@
     <remote name="dain" fetch="https://github.com/dain09" clone-depth="1" />
     <remote name="kdrag0n" fetch="https://github.com/kdrag0n" clone-depth="1" />
     <remote name="infinityx" fetch="https://github.com/ProjectInfinity-X" />
-        
-    <!-- Repos -->
     
     <!-- Device -->
     <project path="device/realme/RMX1971" name="device_realme_RMX1971" remote="dain" revision="15-infinity" />
@@ -21,6 +19,8 @@
 
     <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" />
 
+    <project path="vendor/infinity" name="vendor_infinity" remote="infinityx" revision="15" />
+    
     <!-- Private keys -->
     <project path="vendor/infinity-priv/keys" name="vendor_infinity-priv_keys-template" remote="infinityx" revision="QPR3" />
     
