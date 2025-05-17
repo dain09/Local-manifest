@@ -19,7 +19,7 @@
 
     <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" />
 
-    <project path="vendor/infinity" name="vendor_infinity" remote="infinityx" revision="15" />
+    <project path="vendor/infinity" name="vendor_infinity" remote="dain" revision="15" />
     
     <!-- Private keys -->
     <project path="vendor/infinity-priv/keys" name="vendor_infinity-priv_keys-template" remote="infinityx" revision="QPR3" />
