@@ -8,7 +8,7 @@
     <!-- Repos -->
     
     <!-- Device -->
-    <project path="android/device/realme/RMX1971" name="device_realme_RMX1971" remote="dain" revision="Test" />
+    <project path="device/realme/RMX1971" name="android_device_realme_RMX1971" remote="dain" revision="Test" />
 
     <!-- Device - Common -->
 
