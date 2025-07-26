@@ -4,24 +4,20 @@
     <!-- Remotes -->
     <remote name="dain" fetch="https://github.com/dain09" clone-depth="1" />
     <remote name="kdrag0n" fetch="https://github.com/kdrag0n" clone-depth="1" />
-    <remote name="matrix" fetch="https://github.com/ProjectMatrixx" />
         
     <!-- Repos -->
     
     <!-- Device -->
-    <project path="device/realme/RMX1971" name="device_realme_RMX1971" remote="dain" revision="15-matrixxqpr2" />
+    <project path="android/device/realme/RMX1971" name="device_realme_RMX1971" remote="dain" revision="los-22.2" />
 
     <!-- Device - Common -->
 
     <!-- Kernel -->
-    <project path="kernel/realme/sdm710" name="android_kernel_realme_sdm710" remote="dain" revision="14-r5p" />
+    <project path="kernel/realme/sdm710" name="android_kernel_realme_sdm710" remote="dain" revision="15-test-3" />
 
     <!-- Vendor -->
     <project path="vendor/realme/RMX1971" name="vendor_realme_RMX1971" remote="dain" revision="15" />
 
     <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" />
-
-    <!-- Private keys -->
-    <project path="vendor/lineage-priv/keys" name="android_vendor_lineage-priv_keys-template" remote="matrix" revision="master" />
     
 </manifest>
